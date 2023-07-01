@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/Navbar"
 import Footer from "../Footer/Footer"
 import Advertisment from "../advertisment/advertisment"
+import Collection from "../collection/Collection"
 
 
 
@@ -12,17 +13,18 @@ function Home(){
         <>
            <Navbar/>
 
-        <section >
-            
-                
-                    <Advertisment/>
-               
-            
+        <section >               
+           <Advertisment/>                   
         </section > 
+        <section>
+            <Collection/>
+            
+        </section>
            
+
+
         <section>
             <Footer/>
-
         </section>
         </>
     )
